@@ -24,7 +24,7 @@
 	"cebe/yii2-gravatar": "*",	
 	"almasaeed2010/adminlte": "*",
 	
-    "bower-asset/Font-Awesome": "*",
+        "bower-asset/Font-Awesome": "*",
 	"bower-asset/jqueryui": "~1.12.1",
 	"bower-asset/moment": "~2.16.0",
 	"bower-asset/raphael": "~2.2.7",
