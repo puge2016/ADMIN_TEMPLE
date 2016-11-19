@@ -1,15 +1,15 @@
 {  
-  "name": "puge2016/admin_temple",  
-  "description": "Yii2 admin temple",  
+  "name": "puge2016/xmofa_admin_template",  
+  "description": "Yii2 xmofa admin template",  
   "keywords": [  
     "yii2",  
-    "temple"  
+    "template"  
   ],  
   "homepage": "https://github.com/puge2016",  
   "type": "yii2-extension",  
   "license": "MIT",  
   "support": {  
-    "source": "https://github.com/puge2016/ADMIN_TEMPLE"  
+    "source": "https://github.com/puge2016/xmofa_admin_template"  
   },  
   "authors": [  
     {  
@@ -20,8 +20,10 @@
   "minimum-stability": "stable",  
   "require": {  
     "php": ">=5.4.0",  
-    "yiisoft/yii2": ">=2.0.6"  
-     
+    "yiisoft/yii2": ">=2.0.6", 
+	"cebe/yii2-gravatar": "*",	
+    "FortAwesome/Font-Awesome": "*",
+	"almasaeed2010/adminlte": "*"
   },  
   "autoload": {  
     "psr-4": {  
