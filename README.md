@@ -1,2 +1,2 @@
-# ADMIN_TEMPLE
+# admin temple
 A temple of admin
