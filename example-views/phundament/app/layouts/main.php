@@ -1,11 +1,11 @@
 <?php
-use dmstr\widgets\Alert;
+use puge2016\widgets\Alert;
 use yii\helpers\Html;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
 $this->title = $this->title . ' [Backend]';
-dmstr\web\AdminLteAsset::register($this);
+puge2016\web\AdminLteAsset::register($this);
 ?>
 
 <?php $this->beginPage() ?>

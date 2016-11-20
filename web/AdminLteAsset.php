@@ -1,5 +1,5 @@
 <?php
-namespace dmstr\web;
+namespace puge2016\web;
 
 use yii\base\Exception;
 use yii\web\AssetBundle as BaseAdminLteAsset;
@@ -15,13 +15,14 @@ class AdminLteAsset extends BaseAdminLteAsset
         'css/AdminLTE.min.css',
     ];
     public $js = [
-        'js/app.min.js'
+        'js/app.min.js',
     ];
     public $depends = [
-        'rmrevin\yii\fontawesome\AssetBundle',
-        'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',
-        'yii\bootstrap\BootstrapPluginAsset',
+        'puge2016\web\FontAwessomeAsset',
+        'puge2016\web\JqueryAsset',
+        //'yii\web\YiiAsset',
+        //'yii\bootstrap\BootstrapAsset',
+        //'yii\bootstrap\BootstrapPluginAsset',
     ];
 
     /**

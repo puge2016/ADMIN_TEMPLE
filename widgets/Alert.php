@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace dmstr\widgets;
+namespace puge2016\widgets;
 
 use yii\bootstrap\Alert as BootstrapAlert;
 use yii\bootstrap\Widget;
