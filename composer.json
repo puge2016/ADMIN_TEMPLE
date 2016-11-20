@@ -21,14 +21,16 @@
   "require": {  
     "php": ">=5.4.0",  
     "yiisoft/yii2": ">=2.0.6", 
-	"cebe/yii2-gravatar": "*",	
-	"almasaeed2010/adminlte": "*",
-	
-        "bower-asset/Font-Awesome": "*",
-	"bower-asset/jqueryui": "~1.12.1",
-	"bower-asset/moment": "~2.16.0",
-	"bower-asset/raphael": "~2.2.7",
-	"bower-asset/ionicons": "*"
+    "cebe/yii2-gravatar": "*",	
+    "almasaeed2010/adminlte": "*",
+
+    "bower-asset/respond": "~1.4.2",
+    "bower-asset/html5shiv": "~3.7.3",
+    "bower-asset/Font-Awesome": "*",
+    "bower-asset/jqueryui": "~1.12.1",
+    "bower-asset/moment": "~2.16.0",
+    "bower-asset/raphael": "~2.2.7",
+    "bower-asset/ionicons": "*"
   },  
   "autoload": {  
     "psr-4": {  
