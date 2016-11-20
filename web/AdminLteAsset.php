@@ -14,15 +14,13 @@ class AdminLteAsset extends BaseAdminLteAsset
     public $css = [
         'css/AdminLTE.min.css',
     ];
-    public $js = [
-        'js/app.min.js',
-    ];
+    public $js = [];
     public $depends = [
-        'puge2016\web\FontAwessomeAsset',
+        'puge2016\web\CssJsAsset',
         'puge2016\web\JqueryAsset',
-        //'yii\web\YiiAsset',
-        //'yii\bootstrap\BootstrapAsset',
-        //'yii\bootstrap\BootstrapPluginAsset',
+        'puge2016\web\IfItIe9Asset',
+        'puge2016\web\AppAsset',
+        'puge2016\web\YiiAsset',
     ];
 
     /**
