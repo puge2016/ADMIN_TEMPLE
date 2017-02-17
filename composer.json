@@ -34,7 +34,7 @@
   },
   "autoload": {
     "psr-4": {
-      "puge2016\\": ""
+      "puge2016\\xmofa_admin_template\\": ""
     }
   },
   "config": {
